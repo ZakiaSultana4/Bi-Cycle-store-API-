@@ -173,7 +173,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 ## 🌐 Deployment
 
-- **Live Link**: []
+- **Live Link**: [https://bycycle.vercel.app/]
 
 ---
 
@@ -194,7 +194,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 4. Set up environment variables in a `.env` file:
    ```env
    MONGO_URI=<your_mongo_connection_string>
-   PORT=5000
+   PORT=8000
    ```
 5. Start the server:
    ```bash
