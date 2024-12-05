@@ -1,7 +1,7 @@
 
-# 🚲 Bi-Cycle store API
+# 🚲 Bi-Cycle Store API
 
-An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB through Mongoose for seamless database management. This project includes robust data validation using *Zod* and offers features like product management, order handling, and revenue calculation.
+An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB through Mongoose for seamless database management. This project includes robust data validation using **Zod** and offers features like product management, order handling, and revenue calculation.
 
 ---
 
@@ -14,21 +14,21 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 - **Error Handling:** Comprehensive error responses for validation failures, resource not found, and other errors.
 
 ---
-# 🔧 Tech used for the project
+# 👨‍💻 Tech used for the project
 
-- *TypeScript*: Ensures type safety and scalability.
-- *Express.js*: Backend framework for routing and API development.
-- *MongoDB*: NoSQL database for storing Bi-Cycle and order data.
-- *Mongoose*: ODM for defining and managing MongoDB schemas.
-- *Zod*: Input validation for robust and predictable API behavior.
+- **TypeScript**: Ensures type safety and scalability.
+- **Express.js**: Backend framework for routing and API development.
+- **MongoDB**: NoSQL database for storing Bi-Cycle and order data.
+- **Mongoose**: ODM for defining and managing MongoDB schemas.
+- **Zod**: Input validation for robust and predictable API behavior.
 
 
 
 # 🚀 API Endpoints
 
-# *Bi-Cycle Management*
+## **Bi-Cycle Management**:-
 
-# 1. *Create a Bi-Cycle*
+### 1. **Create a Bi-Cycle**
 
 - **Endpoint**: `POST /api/products`
 - **Request Body**:
