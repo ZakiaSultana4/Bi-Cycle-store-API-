@@ -2,22 +2,23 @@ import express, { NextFunction, Request, Response } from "express";
 
 const app = express();
 
-//parsers
-app.use(express.json());
-
-//routers
+//Application routers
 import productRoute from './app/module/product/product.route'
 import ordertRoute from './app/module/order/order.route'
 
+//parsers
+app.use(express.json());
 
-//routers
+//middlewares 
 app.use("/api/products",productRoute)
 app.use("/api/orders",ordertRoute)
 
-
+//Home route
 app.get("/", (req: Request, res: Response) => {
   res.send("server is running!");
 });
+
+//Not found route
 app.use("*", (req: Request, res: Response) => {
   res.send({
     Error: true,
@@ -25,6 +26,8 @@ app.use("*", (req: Request, res: Response) => {
     validRoutes: "/api/products and /api/orders",
   });
 });
+
+//Error route
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   console.error('Unhandled Error:', err.stack);
   res.status(500).json({
