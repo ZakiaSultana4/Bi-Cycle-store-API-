@@ -22,7 +22,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 - **Mongoose**: ODM for defining and managing MongoDB schemas.
 - **Zod**: Input validation for robust and predictable API behavior.
 
-
+---
 
 # 🚀 API Endpoints
 
@@ -111,9 +111,9 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 ---
 
-## 🛒 **Order Management**:-
+## 🛒 **Order Management** 
 
-#### 6. **Order a Bi-Cycle**
+### 6. **Order a Bi-Cycle**
 
 - **Endpoint**: `POST /api/orders`
 - **Request Body**:
@@ -134,7 +134,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-#### 7. **Calculate Revenue**
+### 7. **Calculate Revenue**
 
 - **Endpoint**: `GET /api/orders/revenue`
 - **Response**:
@@ -148,7 +148,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 ---
 
-## ⚠️ Error Responses :-
+# ⚠️ Error Responses :-
 
 - **Validation Errors**:
 
@@ -171,13 +171,13 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 ---
 
-## 🌐 Deployment:-
+# 🌐 Deployment:-
 
 - **Live Link**: [https://bycycle.vercel.app/]
 
 ---
 
-## 📜 Instructions to Run Locally:-
+# 📜 Instructions to Run Locally:-
 
 1. Clone the repository:
    ```bash
