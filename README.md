@@ -26,7 +26,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 # 🚀 API Endpoints to consume data from the database :-
 
-## ** For Bi-Cycle Management**
+## **For Bi-Cycle Management**
 
 ### 1. **Create a Bi-Cycle**
 
