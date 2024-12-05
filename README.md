@@ -1,5 +1,5 @@
 
-# Bi-Cycle store API
+# 🚲 Bi-Cycle store API
 
 An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB through Mongoose for seamless database management. This project includes robust data validation using *Zod* and offers features like product management, order handling, and revenue calculation.
 
