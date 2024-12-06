@@ -24,11 +24,11 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 ---
 
-# 🚀 API Endpoints to consume data from the database :-
+# 🚀 API Endpoints to consume data from DB :-
 
-## 🚲 **For Bi-Cycle Management** --
+## 🚲 **For Bi Cycle Management** --
 
-### 1. **Create a Bi-Cycle** -
+### 1. **Create a Bi Cycle** -
 
 - **Endpoint**: `POST /api/products`
 - **Request Body**:
@@ -54,7 +54,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 2. **Get All Bi-Cycles** -
+### 2. **Get All Bi Cycles** -
 
 - **Endpoint**: `GET /api/products`
 - **Query**: Search Bi-Cycles by `name`, `brand`, or `type`.
@@ -67,7 +67,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 3. **Get a Specific Bi-Cycle** -
+### 3. **Get a Specific Bi Cycle** -
 
 - **Endpoint**: `GET /api/products/:productId`
 - **Response**:
@@ -79,7 +79,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 4. **Update a Bi-Cycle** -
+### 4. **Update a Bi Cycle** -
 
 - **Endpoint**: `PUT /api/products/:productId`
 - **Request Body**:
@@ -98,7 +98,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 5. **Delete a Bi-Cycle** -
+### 5. **Delete a Bi Cycle** -
 
 - **Endpoint**: `DELETE /api/products/:productId`
 - **Response**:
@@ -113,7 +113,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 ## 🛒 **For Order Management** --
 
-### 6. **Order a Bi-Cycle** -
+### 6. **Order a Bi Cycle** -
 
 - **Endpoint**: `POST /api/orders`
 - **Request Body**:
@@ -201,7 +201,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
    npm run dev
    ```
 6. Access the API at :
-```bash
+   ```bash
    http://localhost:8000 
    ```
 ---
