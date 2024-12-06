@@ -1,11 +1,11 @@
 
-# 🚲 Bi-Cycle Store API
+# 🚲 Bi-Cycle Store API :-
 
 An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB through Mongoose for seamless database management. This project includes robust data validation using **Zod** and offers features like product management, order handling, and revenue calculation.
 
 ---
 
-# 🌟 Features of the project
+# 🌟 Features of the project :-
 
 - **Bi-Cycle Management:** Create, update, delete, and fetch Bi-Cycles.
 - **Order Management:** Place orders with automatic inventory updates.
@@ -14,7 +14,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 - **Error Handling:** Comprehensive error responses for validation failures, resource not found, and other errors.
 
 ---
-# 👨‍💻 Tech used for the project
+# 🔮 Tech used for the project :-
 
 - **TypeScript**: Ensures type safety and scalability.
 - **Express.js**: Backend framework for routing and API development.
@@ -26,9 +26,9 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 # 🚀 API Endpoints to consume data from the database :-
 
-## **For Bi-Cycle Management**
+## 🚲 **For Bi-Cycle Management** --
 
-### 1. **Create a Bi-Cycle**
+### 1. **Create a Bi-Cycle** -
 
 - **Endpoint**: `POST /api/products`
 - **Request Body**:
@@ -54,7 +54,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 2. **Get All Bi-Cycles**
+### 2. **Get All Bi-Cycles** -
 
 - **Endpoint**: `GET /api/products`
 - **Query**: Search Bi-Cycles by `name`, `brand`, or `type`.
@@ -67,7 +67,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 3. **Get a Specific Bi-Cycle**
+### 3. **Get a Specific Bi-Cycle** -
 
 - **Endpoint**: `GET /api/products/:productId`
 - **Response**:
@@ -79,7 +79,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 4. **Update a Bi-Cycle**
+### 4. **Update a Bi-Cycle** -
 
 - **Endpoint**: `PUT /api/products/:productId`
 - **Request Body**:
@@ -98,7 +98,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 5. **Delete a Bi-Cycle**
+### 5. **Delete a Bi-Cycle** -
 
 - **Endpoint**: `DELETE /api/products/:productId`
 - **Response**:
@@ -111,9 +111,9 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
 
 ---
 
-## 🛒 **For Order Management** 
+## 🛒 **For Order Management** --
 
-### 6. **Order a Bi-Cycle**
+### 6. **Order a Bi-Cycle** -
 
 - **Endpoint**: `POST /api/orders`
 - **Request Body**:
@@ -134,7 +134,7 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
   }
   ```
 
-### 7. **Calculate Revenue**
+### 7. **Calculate Revenue** -
 
 - **Endpoint**: `GET /api/orders/revenue`
 - **Response**:
@@ -200,6 +200,8 @@ An Express-based Bi-Cycle store API built with TypeScript, integrating MongoDB t
    ```bash
    npm run dev
    ```
-6. Access the API at `http://localhost:8000`.
-
+6. Access the API at :
+```bash
+   http://localhost:8000 
+   ```
 ---
